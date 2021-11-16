@@ -93,7 +93,7 @@ If you encounter an issue with the template, we encourage you to open an issue i
 
 ```
 # install
-npm sb init
+npx sb init
 
 # run
 yarn storybook
