@@ -129,7 +129,7 @@ yarn storybook
 
 이 후 css -> scss로 변경시 bundle 오류가 생기면
 로더들의 버전을 낮춰 준다.
-````
+
 yarn add -D @storybook/preset-scss css-loader@5.2.6 sass sass-loader@10.1.1 style-loader@2.0.0
 
 # src/.storybook/main.js
