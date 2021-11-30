@@ -117,10 +117,22 @@ npm ERR!     /Users/nhncommerce/.npm/_logs/2021-11-30T06_15_43_494Z-debug.log
 ````
 # 오류가 발생
 
+# new
+````
+yarn add @storybook/cli --dev
+yarn sb init
+````
 
 # run
 yarn storybook
 ```
+
+이 후 css -> scss로 변경시 bundle 오류가 생기면
+로더들의 버전을 낮춰 준다.
+````
+yarn add -D @storybook/preset-scss css-loader@5.2.6 sass sass-loader@10.1.1 style-loader@2.0.0
+````
+
 
 ### 사용법?
 
