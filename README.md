@@ -87,6 +87,13 @@ If you encounter an issue with the template, we encourage you to open an issue i
 2. Learn how to transform your component libraries into design systems in our [Design Systems for Developers](https://storybook.js.org/tutorials/design-systems-for-developers/) tutorial.
 3. See our official documentation at [Storybook](https://storybook.js.org/).
 
+
+
+
+
+
+
+
 ### install & run
 
 프로젝트가 설치되어 있는 root에서 실행
@@ -94,6 +101,22 @@ If you encounter an issue with the template, we encourage you to open an issue i
 ```
 # install
 npx sb init
+
+# 2021 11 30 현재
+````
+Need to install the following packages:
+  sb@next
+Ok to proceed? (y) 
+npm ERR! code ETARGET
+npm ERR! notarget No matching version found for jest-cli@^27.4.0.
+npm ERR! notarget In most cases you or one of your dependencies are requesting
+npm ERR! notarget a package version that doesn't exist.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/nhncommerce/.npm/_logs/2021-11-30T06_15_43_494Z-debug.log
+````
+# 오류가 발생
+
 
 # run
 yarn storybook
