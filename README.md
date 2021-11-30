@@ -131,6 +131,21 @@ yarn storybook
 로더들의 버전을 낮춰 준다.
 ````
 yarn add -D @storybook/preset-scss css-loader@5.2.6 sass sass-loader@10.1.1 style-loader@2.0.0
+
+# src/.storybook/main.js
+module.exports = {
+  "stories": [
+    "../src/**/*.stories.mdx",
+    "../src/**/*.stories.@(js|jsx|ts|tsx)"
+  ],
+  "addons": [
+    "@storybook/addon-links",
+    "@storybook/addon-essentials",
++    "@storybook/preset-scss"
+  ],
+  "framework": "@storybook/react"
+}
+
 ````
 
 
